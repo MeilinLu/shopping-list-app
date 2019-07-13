@@ -10,5 +10,9 @@
     { 
          "name": "hat",
          "color": "blue"
+     },
+     { 
+          "name": "belt",
+          "color": "black"
      }
  ]

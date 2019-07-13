@@ -8,11 +8,13 @@ import {Observable,of, from } from 'rxjs';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
+import { ProductComponent } from './product/product.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    ProductComponent
   ],
   imports: [
     BrowserModule,
@@ -20,7 +22,8 @@ import { HomeComponent } from './home/home.component';
     AppRoutingModule,
     HttpClientModule,
     RouterModule.forRoot([
-      {path: "", component: HomeComponent}
+      {path: "", component: HomeComponent},
+      {path: "product", component: ProductComponent}
     ])
   ],
   providers: [],

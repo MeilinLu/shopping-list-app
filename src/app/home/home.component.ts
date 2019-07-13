@@ -10,23 +10,8 @@ import sampleData from './../../assets/data.json';
 export class HomeComponent implements OnInit {
 
   constructor(private http: HttpClient) { }
-/*
-  products = [];
-  fetchData = function() {
-    this.http.get("http://localhost:5555/produces").subscibe(
-      /*(res: Response)=> { 
-        this.products = res.json();
-      }
-      */
-     /*
-     (response) =>{
-       console.log(response);
-     }
-    );
-  }
-*/
+
   ngOnInit() {
-   // this.fetchData();
   }
 
   Porducts: any = sampleData;
