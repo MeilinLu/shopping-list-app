@@ -1,0 +1,14 @@
+[
+    { 
+         "name": "t-shirt",
+         "color": "red"
+    },
+    { 
+         "name": "pamts",
+         "color": "yellow"
+    },
+    { 
+         "name": "hat",
+         "color": "blue"
+     }
+ ]
